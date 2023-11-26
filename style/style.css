@@ -1,0 +1,269 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  padding: 72px 15%;
+  display: flex;
+  gap: 24px;
+  margin: 0 auto;
+}
+.Check_out {
+    width: 100%;
+}
+.information {
+    width: 100%;
+    height: 1228px;
+    /* border: 2px solid rgb(228, 228, 228); */
+}  
+.summery {
+    width: 50%;
+    height:512px ;
+   border: 2px solid rgb(226, 226, 226);
+}
+.header{
+   color: #191C1F;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 24px;
+   
+}
+.information h1{
+    color: #191C1F;
+    font-size: 18px;
+    font-weight: 500;
+ }
+ .information form{
+    margin: 24px 0;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap ;
+ }
+ 
+ .field input{
+    width: 100%;
+    border-radius: 2px;
+    border: 1px solid #E4E7E9;
+    padding: 12px 16px;
+    margin: 0;
+ }
+ .field label{
+    color:#191C1F;
+    line-height: 20px; 
+ }
+
+ .field select{
+   width: 100%;
+   display: flex;
+   padding: 12px  16px;
+   align-items: center;
+   gap: 16px;
+   border: 1px solid #E4E7E9;
+   color:#77878F ;
+ }
+ .gray-text{
+   color:#929FA5;
+ }
+
+.Address-select {
+   padding: 0%;
+   margin: 0%;
+   width: 100%;
+   display: flex;
+   gap: 16px;
+}
+
+.different-ddress {
+   color: #475156 ;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 20px;
+}
+.field .mail{
+   display: flex;
+   gap: 16px;
+   text-align: left;
+ 
+}
+
+ .grow-1{
+width: 23%;
+ }
+ .grow-2{
+    width: 46%;
+ }
+ .grow-4{
+    width: 100%;
+ }
+ 
+.Payment {
+   width: 100%;
+   display: flex;
+   padding: 20px 0px 32px 0px;
+   flex-direction: column;
+   gap: 20px;
+   border-radius: 4px;
+   border: 1px solid #E4E7E9;
+/* margin-bottom: 20px; */
+}
+.Payment-header{
+   padding-bottom: 20px;
+   padding-left: 20px;
+   border-bottom:  1px solid #E4E7E9;
+}
+
+.all-Content { 
+   width: 100%;
+   padding: 24px;
+   display: flex;
+   gap: 3px;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   color: #191C1F;
+   border-bottom:  1px solid #E4E7E9;
+}
+
+.Content{
+   width: 100%;
+   height: 96px;
+   display: flex;
+   flex-direction: column;
+   justify-content:space-around;
+   align-items: center;
+   gap: 16px;
+   color: #191C1F;
+}
+.center-text {
+   text-align: center;
+}
+.line{
+   width: 1px;
+   height: 96px;
+ }
+.crad-container {
+   width: 90%;
+   display: flex;
+   padding-top: 12px;
+   flex-direction: column;
+   text-align: left;
+   gap: 16px;
+}
+
+/* دوتای کنار هم */
+.input-card-over{
+   width: 100%;
+   display: flex;
+   gap:10px;
+ }
+
+.additional{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items:start;
+   gap: 24px;
+   line-height: 24px;
+   
+}
+.header-Additional {
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 24px;
+}
+
+
+.big-contianer {
+   width: 100%;
+   display: flex;
+   height: 124px;
+   padding: 12px 512px 92px 16px;
+   align-items: center;
+   align-self: stretch;
+   border: 1px solid #E4E7E9;
+   padding-top: 24px;
+}
+
+.Heading{
+   display: flex;
+   padding: 20px 24px;
+   align-items: flex-start;
+   gap: 10px;
+   text-align: left;
+}
+
+.blu-text{
+   font-size: 14px;
+   font-weight: 600;
+   line-height: 20px;
+   color: #2DA5F3;
+}
+.Products{
+   display: flex;
+   padding-bottom: 0px;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   gap: 16px;
+   padding:0  24px 24px 24px;   
+}
+.Product{
+   font-weight: 400;
+   line-height: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 16px;
+   font-size: 14px;
+}
+.total-detail {
+   width: 100%;
+   display: flex;
+   padding-bottom: 0px;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 12px;
+}
+
+.content{
+  margin: 0;
+   display: flex;
+   width: 100%;
+   justify-content: space-around;
+}
+.total-sub {
+   display: flex;
+   width: 90%;
+   justify-content: space-between;
+   padding-bottom: 24px;
+}
+.big-text{
+   color: #191C1F;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+}
+.button{
+   width: 85%;
+   height: 40px;
+   display: flex;
+   padding: 0px 32px;
+   justify-content: center;
+   align-items: center;
+   gap: 12px;
+   color: #fff;
+   background-color: #FA8232;
+   border-radius: 3px;
+}
+.button-text {
+   display: flex;
+   width: 100%;
+   padding: 0 32px;
+   justify-content:space-between;
+   align-items: center;
+   gap: 12px;
+}
+

@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Check_out</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <section class="Check_out">
+        <div 1 class="information">
+          <div class="billing-information">
+            <h1 class="header">Billing Information</h1>
+            <form class="billing-information-form">
+              <div class="field grow-1">
+                <div>
+                  <label for="username">User Name</label>
+                </div>
+                <input
+                  placeholder="First Name"
+                  type="text"
+                  id="username"
+                  name="username"
+                  required
+                />
+              </div>
+              <div class="field grow-1">
+                <div>
+                  <label for="lastname" style="color: white">s</label>
+                </div>
+                <input
+                  placeholder="Last Name"
+                  type="text"
+                  id="lastname"
+                  name="lastname"
+                  required
+                />
+              </div>
+              <div class="field grow-2">
+                <div>
+                  <label for="Company"
+                    >Company Name <span class="gray-text">(Optional)</span>
+                  </label>
+                </div>
+                <input
+                  placeholder="Company Name"
+                  type="text"
+                  id="Company"
+                  name="Company"
+                  required
+                />
+              </div>
+              <div class="field grow-4">
+                <div>
+                  <label for="Address">Address</label>
+                </div>
+                <input
+                  placeholder="Address"
+                  type="text"
+                  id="Address"
+                  name="Address"
+                  required
+                />
+              </div>
+              <div class="Address-select">
+                <div class="field grow-2">
+                  <div>
+                    <label for="Country">Country</label>
+                    <div>
+                      <select id="Country">
+                        <option id="0" value="Iran">Iran</option>
+                        <option id="1" value="us-a">United America</option>
+                        <option id="2" value="us-k">United Kingdom</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="field grow-2">
+                  <div>
+                    <label for="Region">Region/State</label>
+                    <div>
+                      <select id="Region">
+                        <option id="0" value="per">ir</option>
+                        <option id="1" value="usa">us-a</option>
+                        <option id="2" value="usk">us-k</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="field grow-2">
+                  <div>
+                    <label for="City">City</label>
+                    <div>
+                      <select id="City">
+                        <option id="0" value="Tehran">Tehran</option>
+                        <option id="1" value="NewYork">New York</option>
+                        <option id="2" value="London">London</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="field grow-2">
+                  <div>
+                    <label for="Zip">Zip Code</label>
+                  </div>
+                  <input placeholder="..." type="text" id="Zip" name="Zip" />
+                </div>
+              </div>
+              <!-- ______________________________________________________________________ -->
+              <div class="field grow-2">
+                <div class="mail">
+                  <label for="email">Email</label>
+                </div>
+                <input type="email" id="email" name="email" />
+              </div>
+              
+              <div class="field grow-2">
+                <div class="mail">
+                  <label for="phone ">Phone Number</label>
+                </div>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+                />
+              </div>
+              <!-- ______________________________________________________________________ -->
+            </form>
+            <!-- پایان فرم -->
+            <div class="different-ddress">
+              <input type="radio" />
+              <label for="text">Ship into different address</label>
+            </div>
+          </div>
+          <!-- قسمت دوم -->
+          <div 2 class="Payment">
+            <div class="Payment-header grow-4"><h1>Payment Option</h1></div>
+            <div class="all-Content">
+              <!-- ___ -->
+              <div class="Content">
+                <div class="Content">
+                  <img
+                    src="./img/CurrencyDollar.svg"
+                    width="32px"
+                    height="32px"
+                  />
+                  <span class="center-text">Cash on Delivery</span>
+                </div>
+                <input type="radio" />
+              </div>
+              <span class="line">|</span>
+              <!-- ___ -->
+              <div class="Content">
+                <div class="Content">
+                  <img src="./img/Icon.svg" width="32px" height="32px" />
+                  <span>Venmo</span>
+                </div>
+                <input type="radio" />
+              </div>
+              <span class="line">|</span>
+              <!-- ___ -->
+              <div class="Content">
+                <div class="Content">
+                  <img src="./img//image 9.svg" width="32px" height="32px" />
+                  <span>Paypal</span>
+                </div>
+                <input type="radio" />
+              </div>
+              <span class="line">|</span>
+              <!-- ___ -->
+              <div class="Content">
+                <div class="Content">
+                  <img
+                    src="./img/amazon-icon-1 1.svg"
+                    width="32px"
+                    height="32px"
+                  />
+                  <span>Amazon Pay</span>
+                </div>
+                <input type="radio" />
+              </div>
+              <span class="line">|</span>
+              <!-- ___ -->
+              <div class="Content">
+                <div class="Content">
+                  <img src="./img/CreditCard.svg" width="32px" height="32px" />
+                  <span>Debid/Credit Card</span>
+                </div>
+                <input type="radio" />
+              </div>
+            </div>
+            <!-- قسمت سوم -->
+            <div class="crad-container">
+              <div class="field grow-4">
+                <div>
+                  <label for="Address">Name on Card</label>
+                </div>
+                <input
+                  type="text"
+                  id="Address"
+                  name="Address"
+                  required
+                />
+              </div>
+              <!-- ____ -->
+              <div class="field grow-4">
+                <div>
+                  <label for="Address">Card Number</label>
+                </div>
+                <input
+                  type="text"
+                  id="Address"
+                  name="Address"
+                  required
+                />
+              </div>
+              <!-- ____ -->
+              <div class="field input-card-over">
+                <div class="field grow-4">
+                  <div>
+                    <label for="date">Expire Date</label>
+                  </div>
+                  <input type="date" name="date" id="date" required />
+                </div>
+                <div class="field grow-4">
+                  <div><label for="CVC">CVC</label></div>
+                  <input type="CVC" name="CVC" id="CVC" required />
+                </div>
+              </div>
+              <!-- ___ -->
+            </div>
+          </div>
+          <div class="Additional">
+            <div >
+              <h1 class="header-Additional" >
+                Additional Information
+              </h1>
+            </div>
+            <div>
+              <div>
+                <label for="text"
+                  >Order Notes <span class="gray-text">(Optional)</span></label
+                >
+              </div>
+              <div>
+                <input
+                  class="big-contianer"
+                  placeholder="Notes about your order, e.g. special notes for delivery"
+                  for="text"
+                  name="text"
+                  id="text" >
+                </input>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- پایان قسمت سوم -->
+      </section>
+      <section class="summery">
+        <div class="summery-container">
+          <div class=" ">
+          </div>
+          <!-- ___ -->
+          <div class=" Heading">
+            <h1 class="header">Order Summery</h1>
+          </div>
+          <!-- ___ -->
+          <div class="Products">
+            <div class="Product">
+              <img src="./img/tv.png" width="17%">
+              <p>Canon EOS 1500D DSLR Camera Body+ 18-...<br> <span class="gray-text">1  ×</span> <span class="blu-text">$70</span></p>
+            </div>
+            <div class="Product">
+              <img src="./img/headphon.png" width="17%">
+              <p>Wired Over-Ear Gaming Headphones with U...<br> <span class="gray-text">3  ×</span> <span class="blu-text">$250</span></p>
+            </div>
+          </div>
+          <!-- ___ -->
+          <div .class="total ">
+            <div class="total-detail">
+              <div class="content"><span class="gray-text">Sub-total</span> <span>$320</span></div>
+              <div class="content"><span class="gray-text">Shipping</span> <span>Free</span></div>
+              <div class="content"><span class="gray-text">Discount</span> <span>$24</span></div>
+              <div class="content"><span class="gray-text">Tax</span> <span>$61.99</span></div>
+            </div>
+            <img src="./img/Line 26.png" alt="">
+            <div class="total-sub">
+              <span class="big-text"> Total</span>
+              <span class="big-text"> $357.99 USD</span>
+            </div>
+          </div>
+          <!-- ___ -->
+          <div >
+            <div class="button">
+              <span class="button-text"> PLACE ORDR</span>
+            <img src="./img/ArrowRight.svg" width="24px" height="24px">
+            </div>
+            
+
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
